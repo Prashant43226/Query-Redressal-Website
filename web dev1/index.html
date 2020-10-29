@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gym website</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list ">
+            <div class="logo"><img src="img/logo.jpg" alt="logo" class="src"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+        </ul>
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="first-half">
+                <p class="text-big">
+                    GET FIT AND PROVE THAT YOU MEAN IT!
+                </p>
+                <p class="text-small">
+                    Be amongst the first 100 subscribers of our fitness channel to get all the latest updates in the world of fitness and about out schemes.
+                </p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                
+                </div>
+            </div>
+            <div class="second-half">
+                <img src="img/img2.jpg" alt="dummy image" class="src">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectiontag text-big">Why choose us</p>
+        <p class="sectionsubtag text-small">If you have to do it ,it needs to be only the best.On training with us you get the best trainers and world class equipments to seamlessly acquire your fitness goals
+        </p>
+    </div>
+        <div class="thumbnaail">
+            <img src="img/img1.jpg" alt="dumbell image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section-left">
+        <div class="paras">
+        <p class="sectiontag text-big">Services</p>
+        <p class="sectionsubtag text-small">Our various services include provision of trainers along with world class dieticians to monitor your habits and give you proper guidance.It also involves provision of world class gym equipments to achieve what you really want to acquire
+        </p>
+    </div>
+        <div class="thumbnaail">
+            <img src="img/img1.jpg" alt="dumbell image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectiontag text-big">Query Redressal</p>
+        <p class="sectionsubtag text-small">In case you have any more queries contact us by providing your information below.Our representative will get to you soon in regard to this.
+        </p>
+    </div>
+        <div class="thumbnaail">
+            <img src="img/img1.jpg" alt="dumbell image" class="imgFluid">
+        </div>
+    </section>
+    <hr>
+    <section class="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <form method="POST" action="/post-feedback">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+            <input class="form-input" type="text" name="phone" id="name" placeholder="Enter your phone">
+            <input class="form-input" type="text" name="email" id="name" placeholder="Enter your email">
+            <br><textarea class="form-input" name="concern" id="text" cols="30" rows="10" placeholder="Elaborate your concern"></textarea>
+            <button class="btn btn-dark">Submit</button>
+    </form>
+    </section>
+</body>
+</html>
